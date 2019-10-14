@@ -11,9 +11,7 @@
 		45B7E1012353F92100C846DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E1002353F92100C846DB /* ViewController.swift */; };
 		45B7E1032353F92200C846DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B7E1022353F92200C846DB /* Assets.xcassets */; };
 		45B7E1062353F92200C846DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B7E1042353F92200C846DB /* Main.storyboard */; };
-		45B7E1132353FA1C00C846DB /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B7E1122353FA1C00C846DB /* Metal.framework */; };
 		45B7E1152353FA2500C846DB /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B7E1142353FA2500C846DB /* MetalKit.framework */; };
-		45B7E1172353FA2C00C846DB /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B7E1162353FA2B00C846DB /* MetalPerformanceShaders.framework */; };
 		45B7E11A2353FE1B00C846DB /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E1192353FE1B00C846DB /* Shaders.metal */; };
 		45B7E11D2354175C00C846DB /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E11C2354175C00C846DB /* Renderer.swift */; };
 		45B7E11F23541CE600C846DB /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7E11E23541CE600C846DB /* Primitive.swift */; };
@@ -27,9 +25,7 @@
 		45B7E1052353F92200C846DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45B7E1072353F92200C846DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B7E1082353F92200C846DB /* Metalz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Metalz.entitlements; sourceTree = "<group>"; };
-		45B7E1122353FA1C00C846DB /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		45B7E1142353FA2500C846DB /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
-		45B7E1162353FA2B00C846DB /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
 		45B7E1192353FE1B00C846DB /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		45B7E11C2354175C00C846DB /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 		45B7E11E23541CE600C846DB /* Primitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
@@ -40,8 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B7E1132353FA1C00C846DB /* Metal.framework in Frameworks */,
-				45B7E1172353FA2C00C846DB /* MetalPerformanceShaders.framework in Frameworks */,
 				45B7E1152353FA2500C846DB /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,9 +102,7 @@
 		45B7E1112353FA1C00C846DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				45B7E1162353FA2B00C846DB /* MetalPerformanceShaders.framework */,
 				45B7E1142353FA2500C846DB /* MetalKit.framework */,
-				45B7E1122353FA1C00C846DB /* Metal.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
