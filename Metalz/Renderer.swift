@@ -68,7 +68,7 @@ class Renderer: NSObject {
 extension Renderer: MTKViewDelegate {
     
     func mtkView(_ view: MTKView, drawableSizeWillChange size: CGSize) {
-        
+        // Called when window resizes
     }
 
     func draw(in view: MTKView) {
@@ -79,8 +79,8 @@ extension Renderer: MTKViewDelegate {
             return
         }
         
-        timer += 0.05
-        var currentTime = sin(timer)
+        self.timer += 0.05
+        var currentTime = sin(self.timer)
 
         renderEncoder.setVertexBytes(&currentTime, length: MemoryLayout<Float>.stride, index: 1)
         renderEncoder.setRenderPipelineState(self.pipelineState)
