@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Metal
 //
-//  Created by Aaron Wright on 10/13/19.
+//  Created by A.C. Wright on 10/13/19.
 //  Copyright © 2019 Infinite Token. All rights reserved.
 //
 
